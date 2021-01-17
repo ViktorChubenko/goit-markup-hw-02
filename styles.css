@@ -1,0 +1,195 @@
+/* Button */
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый цвет #E5E5E5 */
+/* серый цвет #F5F4FA */
+/* акцент #2196F3 */
+/* цвет в навигации rgba(255, 255, 255, 0.6 */
+/* вторичный цвет фона #F5F4FA */
+/* цвет фона  #ffffff */
+:root {
+  --text-font: Roboto, sans-serif;
+  --logo-font: Raleway, sans-serif;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+body {
+  font-family: var(--text-font);
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+/*===========Components=============*/
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  font-family: inherit;
+}
+.portfolio-button {
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+/*===========End Components=============*/
+/*===========Logo=============*/
+.logo {
+  font-family: var(--logo-font);
+  color: var(--accent-color);
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo :hover {
+  color: var(--accent-color);
+}
+.logo-header {
+  font-family: var(--logo-font);
+  color: var(--title-text-color);
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+/*===========End Logo=============*/
+/*===========Navigation=============*/
+.site-nav {
+  font-style: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/*===========End Navigation=============*/
+/*===========Contacts=============*/
+.contacts .link {
+  color: var(--primary-text-color);
+}
+.services-button:hover,
+.services-button:focus {
+  color: var(--title-text-color);
+}
+/*===========End Contacts=============*/
+/*===========Hero=============*/
+.solutions {
+  background-color: #2f303a;
+}
+.solutions-title {
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  font-style: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  vertical-align: top;
+}
+.services-button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+  font-style: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+/*===========End Hero=============*/
+/*===========Headlines=============*/
+.services-title,
+.team-title {
+  color: var(--title-text-color);
+  font-style: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  vertical-align: top;
+}
+.advantages-title {
+  font-size: 0%;
+}
+.caption {
+  color: var(--title-text-color);
+  font-style: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+.user {
+  color: var(--title-text-color);
+  font-style: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+/*===========End Headlines=============*/
+/*===========Team=============*/
+.team {
+  background-color: #f5f4fa;
+}
+/*===========End Team=============*/
+/*===========Main Text=============*/
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+.user-text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+/*===========End Main Text=============*/
+/*===========Footer=============*/
+footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+  font-style: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.address {
+  font-style: inherit;
+  color: #ffffff;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts:hover,
+.footer-contacts:focus {
+  color: var(--accent-color);
+}
+/*===========End Footer=============*/
+/*===========Portfolio=============*/
+.hide-header {
+  display: none;
+}
+.portfolio-caption {
+  color: var(--title-text-color);
+  letter-spacing: 0.06em;
+  font-style: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.type-project {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+/*===========End Portfolio=============*/
